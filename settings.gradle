@@ -1,0 +1,6 @@
+include ':framework'
+include ':plugins'
+include ':hw5c'
+include 'plugins:src'
+findProject(':plugins:src')?.name = 'Test'
+
